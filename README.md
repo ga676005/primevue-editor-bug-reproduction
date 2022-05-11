@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+# Issue
+In production mode, Editor's dropdown stops working when it mounts second time and afterwards.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+https://user-images.githubusercontent.com/51456572/167750578-30c91a62-c2d4-473b-8e57-15cd54c9a860.mp4
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+1. git clone https://github.com/ga676005/primevue-editor-bug-reproduction
+2. npm i
+3. npm run preview
+4. open the page
+5. click the toggle button to show `Editor`, notice the dropdown is clickable
+6. click the toggle button twice to hide and show `Editor` again, now dropdown is not clickable
